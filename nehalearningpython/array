@@ -1,0 +1,27 @@
+from array import *
+arr= array('i',[])
+
+n = int(input("enter the length of an array"))
+
+for i in range(n):
+    x= int(input("enter the next value"))
+    arr.append(x)
+
+print(arr)
+val = int(input("enter the value u want to search"))
+k=0
+for e in arr:
+    if e==val:
+        print(k)
+        break
+    k+=1
+print(arr.index(val))
+
+
+
+# traverse the array
+
+
+from array import *
+arr = array('i',[10,20,30,40,50,60,70,80,90,100])
+print(arr[::-1])
