@@ -1,0 +1,10 @@
+def swap_case(s):
+    s = input("enter any string")
+    result = swap_case(s)
+    print(result)
+
+    return s.swapcase()
+
+
+
+swap_case("wa")

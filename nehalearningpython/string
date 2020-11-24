@@ -1,0 +1,22 @@
+"""listB =[1,"strng", 'fght',4.3,'true',[2,3,4]]
+print(listB[0])
+print(listB[1])
+print(listB[2])
+print(listB[3])
+print(listB[4])
+
+
+
+x= ['a','b','c','d','e']
+for i in x:
+    print(i, end =" ")"""
+
+x ="abcdf"
+i=""
+for i in x:
+    print(i , end =" ")
+
+print()
+
+str ="hello"
+print (str[::-3])

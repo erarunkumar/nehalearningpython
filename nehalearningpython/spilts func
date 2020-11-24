@@ -1,0 +1,42 @@
+"""problems ='hery mohan arun arijit dwane jhonson'
+print(problems)
+
+k=problems.split(" ")
+print(k)
+
+
+joined = ' and '.join(k)
+print(joined)
+
+csv = '-'.join(k)
+print(csv)
+
+k = 'harshit','23'
+print(','.join(k))
+
+a= "enter any string"
+a = a.split(" ")
+print(a)
+
+
+
+def split_and_join(line):
+    line = str(input("enter any sentence"))
+    line = '-'.join(line.split())
+    result= split_and_join(line)
+    print(result)
+
+split_and_join()"""
+def x():
+    line = str(input("[enter any string]"))
+    line = line.split(" ")
+    print(line)
+    print(' - '.join(line))
+x()
+
+def split_and_join(line):
+    return ("-".join(line.split()))
+if __name__ == '__main__':
+    line = input("enter any string")
+    result = split_and_join(line)
+    print(result)

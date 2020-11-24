@@ -1,0 +1,27 @@
+import turtle
+neha_turtle = turtle.Turtle()
+#neha_turtle.speed(10)
+def square():
+
+
+    neha_turtle.forward(100)
+    neha_turtle.right(50)
+    neha_turtle.forward(100)
+    neha_turtle.right(50)
+    neha_turtle.forward(100)
+    neha_turtle.right(50)
+    neha_turtle.forward(100)
+    neha_turtle.right(50)
+    neha_turtle.forward(100)
+    neha_turtle.right(50)
+    neha_turtle.forward(100)
+    neha_turtle.right(50)
+    neha_turtle.forward(100)
+    neha_turtle.right(50)
+    neha_turtle.forward(100)
+square()
+
+
+for count in range(2):
+    square()
+

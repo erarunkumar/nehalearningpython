@@ -1,0 +1,25 @@
+"""nums=[34,2,542,4,65,54]
+print (max(nums))
+print(nums.pop(0))
+print(nums)"""
+
+"""nums =int(input("enter the lenghth of array"))
+for i in range(nums):
+    arr=list(input("enter the marks"))
+    arr.append(i)
+print(max(arr))"""
+
+n = int(input("enter the value"))
+for i in range(n):
+    arr = int(input("enter array"))
+largest = max(arr)
+for i in range(n):
+    if largest==max(arr):
+        arr.remove(max(arr))
+print(max(arr))
+
+
+"""n = int(raw_input())
+    list1 = map(int, raw_input().split())
+
+    print sorted(list(set(list1))) [-2]"""
